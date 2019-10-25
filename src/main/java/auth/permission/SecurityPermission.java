@@ -10,7 +10,7 @@ public class SecurityPermission implements Permission {
   
     public static final String ROLE_ADMIN_NAME = "Administrators";
 
-  public static final String ROLE_USER_NORMAL = "Usuario Normal";
+  public static final String ROLE_USER_CLIENT = "Client";
 
   @Override
   public void loadSecurityPermission(HttpSecurity http) throws Exception {
